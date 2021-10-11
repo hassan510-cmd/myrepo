@@ -6,7 +6,7 @@ num2=${f2}
 echo ${num1}
 result=${f3}
 sc_result=$(./sum.sh ${num1} ${num2})
-if [ ${sc_result} -eq $((result+1)) ]
+if [ ${sc_result} -eq ${result} ]
 then
 	echo "case passed"
 else
