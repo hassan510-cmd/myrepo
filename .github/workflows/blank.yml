@@ -33,4 +33,4 @@ jobs:
       - name: Run a shell-script.sh
         run: |
           echo start,
-          chmod +x "${GITHUB_WORKSPACE}/myrepo/script.sh"
+          chmod +x "${GITHUB_WORKSPACE}/myrepo/shell-script.sh"
