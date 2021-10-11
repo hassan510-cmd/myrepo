@@ -33,6 +33,4 @@ jobs:
       - name: Run a shell-script.sh
         run: |
           echo start,
-          pwd,
-          ls
-          
+          "${GITHUB_WORKSPACE}/.github/shell-script.sh"
