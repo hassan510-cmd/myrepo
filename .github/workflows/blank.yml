@@ -33,5 +33,5 @@ jobs:
       - name: Run a shell-script.sh
         run: |
           echo start,
-          pwd
+          pwd,ls
           
