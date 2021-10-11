@@ -33,6 +33,5 @@ jobs:
       - name: Run a shell-script.sh
         run: |
           echo start,
-          chmod +x "myrepo/shell-script.sh",
-          "myrepo/shell-script.sh"
+          pwd
           
